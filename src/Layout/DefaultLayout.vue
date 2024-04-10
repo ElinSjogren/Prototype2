@@ -5,6 +5,7 @@
             <nav class="nav nav-center">
                 <RouterLink to="/" >Start</RouterLink>
                 <RouterLink to="/about" >About</RouterLink>
+                <RouterLink to="/functions">Functionallity</RouterLink>
             </nav>
           
         </header>
@@ -24,7 +25,7 @@
 </template>
 <script>
 import { RouterLink, RouterView } from 'vue-router';
-import Start from '@/components/Start.vue';
+import Start from '@/components/ButtonRow.vue';
 export default{
     data(){
         return{

@@ -38,10 +38,13 @@ export default{
 }
 </script>
 <style>
+.container{
+    margin-bottom:3rem;
+    margin-top: 3rem;
+}
 .dafaultLayout{
-    width: 100vw;
-    height: 100vh;
-    background-color: yellow;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 .DefaultHeader{
     background-color: white;
@@ -54,11 +57,16 @@ export default{
     padding:1rem;
 }
 a{
-    padding:4px;
+    padding:5px;
+    padding-right:12px;
+    padding-left:12px;
     background:white;
     color:black;
     border-radius: 3px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 #info{
     background-color: black;
@@ -66,9 +74,11 @@ a{
 }
 .footer{
     background-color: aquamarine;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width:100vw;
-    padding:2em;
+    padding:2rem;
+    margin-top:auto;
+    overflow: hidden;
 }
 </style>

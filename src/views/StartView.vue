@@ -1,21 +1,39 @@
 <template>
     <div class="startView">
-        <p>start view</p>
-        <p>This is a view</p>
-        <p>
-            Views in a Vue.js project typically represent the different pages or routes of your application. 
-            They are responsible for displaying the content to the user based on the current URL or route. 
-            In Vue Router, which is commonly used for managing routing in Vue.js applications, 
-            each route is associated with a specific view component. These view components can contain 
-            other components, layouts, or directly render content.
+        <h2 class="text-center">Welcome!</h2>
+        <feature>
+         <p class="intro">
+            Have you ever wondered how it would be like to not get stuck thinking 
+            'how was it now.... can't remember....' and just have full control 
+            over all information. In your hand, on every internet access unit, 
+            you can have all important information right in front of you. 
+            And we are not talking about stuff you can google.
         </p>
+        </feature>
+
     </div>
 </template>
 <script>
+import Feature from '@/components/Feature.vue';
+export default{
+    data(){
+        return[
+
+        ]
+    },
+    components:{
+        Feature
+    }
+}
 
 </script>
 <style>
 .startView{
-    background-color: purple;
+    padding:2rem;
+    color:rgb(255, 250, 250);
+}
+.intro{
+
+    font-style: italic;
 }
 </style>

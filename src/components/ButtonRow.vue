@@ -24,11 +24,9 @@ export default{
             dummyStore().selectedFeature = f;
             console.log(f);
             console.log(dummyStore().selectedFeature);
-            //this.$emit(f);
+            this.$emit(f);
         }
     },
-    setup(){
-        
-    }
+
 }
 </script>

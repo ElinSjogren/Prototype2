@@ -1,8 +1,8 @@
 <template>
     <div class="dafaultLayout">
         <header id="DefaultHeader">
-            <h1 class="text-center">Our prototype</h1>
             <nav class="nav nav-center">
+                <h1>Prototype</h1>
                 <RouterLink to="/" >Start</RouterLink>
                 <RouterLink to="/about" >About</RouterLink>
                 <RouterLink to="/functions">Functionallity</RouterLink>

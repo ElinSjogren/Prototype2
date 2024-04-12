@@ -12,11 +12,7 @@ Requirements:
   -User can link information that belongs to eachother in a three structure. 
 
 
-
+On the page /functions you can see three sub-pages with a visualization of the main idea. Except standard CRUD-functions; The posts will look clean and pretty and in the overview part yoou will see how its all linked together. 
 ----------------------
-En startskärm där er produktidé presenteras.
-Tre undersidor som visar olika delar av er produktidé.
-En sida som visar kontaktinformation för er produktidé.
-En meny som låter användaren navigera mellan sidorna.
-Ni ska även inkludera en kort beskrivning av er produktidé i kravspecen.
+
 -----------------------------

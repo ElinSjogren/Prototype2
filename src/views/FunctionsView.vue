@@ -2,7 +2,7 @@
 <div class="funtionsView">
     <h2>Our functions</h2>
     <button-row @showFunction=""></button-row>
-    <p>As a user you will be able to make posts about importat stuff. You can also edit, delete and add more. Togheter the post will make sense as you make conections between them.</p>
+    <p id="explenationText">As a user you will be able to make posts about importat stuff. You can also edit, delete and add more. Togheter the post will make sense as you make conections between them.</p>
     <feature> <img :src="imgUrl"></feature>
 </div>
 </template>
@@ -44,5 +44,8 @@ img{
     max-height: 200px;
     margin: auto;
     border-radius: 10px;
+}
+#explenationText{
+    color: pink;
 }
 </style>

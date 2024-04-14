@@ -56,6 +56,9 @@ export default{
     background-color: cadetblue;
     padding:1rem;
 }
+main{
+    min-height: 100%;
+}
 a{
     padding:5px;
     padding-right:12px;
@@ -74,7 +77,7 @@ a{
 }
 .footer{
     background-color: aquamarine;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width:100vw;
     padding:2rem;

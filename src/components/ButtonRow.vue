@@ -2,7 +2,7 @@
     <div class="buttons container">
         <h1>Options </h1>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 btnRow">
                 <button v-for="f in functionllity" class="btn btn-secondary" @click="showFunction(f)">{{f}}</button>
             </div>
         </div>
@@ -30,3 +30,9 @@ export default{
 
 }
 </script>
+<style>
+.btnRow{
+    display: flex;
+    justify-content: space-around;
+}
+</style>

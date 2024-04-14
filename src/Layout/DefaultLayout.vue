@@ -57,7 +57,9 @@ export default{
     padding:1rem;
 }
 main{
-    min-height: 100%;
+   
+    color: pink;
+    margin-bottom: 20rem;
 }
 a{
     padding:5px;
@@ -80,8 +82,7 @@ a{
     position: fixed;
     bottom: 0;
     width:100vw;
-    padding:2rem;
-    margin-top:auto;
+    height: 3rem;
     overflow: hidden;
 }
 </style>

@@ -2,9 +2,15 @@
     <div class="aboutView">
         <Feature>
             <div class="aboutInfo">
-                <h3>About us</h3>
-                <img id="profilePic" src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg" alt="this is me">
-                <p>We are the once who needs help to cope with daily life. Lårium ipsidum!!!!
+                <div class="aboutHead row">
+                    <div class="col-6">
+                      <h3>About us</h3>
+                      <p>We are the once who needs help to cope with daily life.</p>  
+                    </div>
+                   
+                    <img id="profilePic" src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg" alt="this is me">
+                </div>
+                <p> Lårium ipsidum!!!!
 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
@@ -54,5 +60,12 @@ export default{
 }
 .aboutInfo{
     padding:2rem;;
+}
+.aboutHead{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(14, 14, 14);
+    border-radius: 2rem;
+    padding:2rem;
 }
 </style>
